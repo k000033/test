@@ -33,6 +33,28 @@
 # 刪除檔案
 <!-- 最後也要 add、commit -->
 
+# 忽略檔案清單
+<!-- 新增 .gitignore -->
+<!-- 最後也要 add、commit -->
+
+
+#
+ - git remote add origin https://github.com/k000033/test.gi 
+ <!-- remote 遠端
+ add 新增
+ origin 遠端儲存庫名稱 -->
+
+ - git branch -M main 
+ <!-- branch 分支管理
+ -M 重新命名
+ main 新的分支名稱  -->
+
+- git push -u origin main
+<!-- push 推送
+-u 建立關聯
+origin 遠端儲存庫名稱
+main 本地名稱 -->
+
 # 名詞
 ## master
 - 主線任務
