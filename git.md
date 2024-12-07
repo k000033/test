@@ -38,7 +38,7 @@
 <!-- 最後也要 add、commit -->
 
 
-#
+# 第一次上傳到 github
  - git remote add origin https://github.com/k000033/test.gi 
  <!-- remote 遠端
  add 新增
@@ -54,6 +54,24 @@
 -u 建立關聯
 origin 遠端儲存庫名稱
 main 本地名稱 -->
+
+## 第二次上傳 github
+- git add 
+- git commit -m "訊息"
+- git push
+
+
+# 將檔案拉下來 
+- git clone 網址
+
+# 建立並切換分之
+- git checkout -b develop
+
+# 查看分支
+- git branch
+
+# 同步檔案
+- git pull
 
 # 名詞
 ## master
