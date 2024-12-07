@@ -24,36 +24,36 @@
 - git checkout master
 
 # 還原
-- git checkout 序號 檔名
-<!-- 最後要 commit 才算完成 -->
+- git checkout 序號 檔名 
+**注意**：最後要執行 `commit` 才算完成還原。
 
 # 還原並捨棄
 - git reset --hard 序號
 
 # 刪除檔案
-<!-- 最後也要 add、commit -->
+**注意** : 最後也要 add、commit
 
 # 忽略檔案清單
-<!-- 新增 .gitignore -->
-<!-- 最後也要 add、commit -->
+**注意** : 新增 .gitignore
+**注意** : 最後也要 add、commit
 
 
 # 第一次上傳到 github
  - git remote add origin https://github.com/k000033/test.gi 
- <!-- remote 遠端
- add 新增
- origin 遠端儲存庫名稱 -->
+   - **remote** 遠端
+   - **add** 新增
+   - **origin** 遠端儲存庫名稱
 
  - git branch -M main 
- <!-- branch 分支管理
- -M 重新命名
- main 新的分支名稱  -->
+   - **branch** 分支管理
+   - **-M** 重新命名
+   - **main** 新的分支名稱 
 
 - git push -u origin main
-<!-- push 推送
--u 建立關聯
-origin 遠端儲存庫名稱
-main 本地名稱 -->
+   - **push** 推送
+   - **-u** 建立關聯
+   - **origin** 遠端儲存庫名稱
+   - **main** 本地名稱
 
 ## 第二次上傳 github
 - git add 
@@ -62,8 +62,8 @@ main 本地名稱 -->
 
 ## 上傳 別的分支
 - git push origin develop
-<!-- origin 儲存庫的名稱
-develop 要上傳的分支名稱 -->
+  - **origin**：儲存庫的名稱。
+  - **develop**：要上傳
 
 # 將檔案拉下來 
 - git clone 網址
