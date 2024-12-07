@@ -31,6 +31,7 @@
 - git reset --hard 序號
 
 # 刪除檔案
+<!-- 最後也要 add、commit -->
 
 # 名詞
 ## master
