@@ -60,6 +60,10 @@ main 本地名稱 -->
 - git commit -m "訊息"
 - git push
 
+## 上傳 別的分支
+- git push origin develop
+<!-- origin 儲存庫的名稱
+develop 要上傳的分支名稱 -->
 
 # 將檔案拉下來 
 - git clone 網址
